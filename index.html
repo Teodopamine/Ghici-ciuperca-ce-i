@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java1</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java1.js" defer></script>
+</head>
+<body>
+    <h1>Ghiceste numarul!!</h1>
+
+    <p>Selecteaza un numar inte 1 si 100</p>
+    <p>Incearcă să ghicești în 10 încercări sau mai puține</p>
+    <p>Ți se va indica dacă numărul este mai mare sau mai mic decât cel scris.</p>
+
+    <div class="form">
+        <label for="guessField">Introdu un numar</label>
+        <input type="number" min="1" max="100" required id="guessField" class="guessField">
+        <input type="submit" value="Trimite numarul" class="guessSubmit">
+    </div>
+
+    <div class="resultParas">
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="lowOrHi"></p>
+    </div>
+</body>
+</html>
